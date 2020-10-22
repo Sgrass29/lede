@@ -85,6 +85,9 @@ jobs:
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Redsocks2=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=y
+          CONFIG_PACKAGE_luci-app-samba=y
+          CONFIG_PACKAGE_odhcp6c=y
+          CONFIG_PACKAGE_odhcpd=y
           CONFIG_IPV6=y
           CONFIG_PACKAGE_luci-proto-ipv6=y
           EOF
