@@ -73,7 +73,6 @@ jobs:
           CONFIG_TARGET_ramips_mt7621=y
           CONFIG_TARGET_ramips_mt7621_DEVICE_pbr-m1=y
           CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_pbr-m1=y
-          CONFIG_PACKAGE_luci-app-aliddns=y
           CONFIG_PACKAGE_luci-app-ssr-plus=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
