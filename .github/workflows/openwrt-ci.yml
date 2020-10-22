@@ -77,8 +77,6 @@ jobs:
           CONFIG_TARGET_ARCH_PACKAGES="mipsel_24kc"
           CONFIG_DEFAULT_TARGET_OPTIMIZATION="-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc"
           CONFIG_CPU_TYPE="24kc"
-          CONFIG_IPV6=y
-          CONFIG_PACKAGE_luci-proto-ipv6=y
           EOF
           #
           # ===============================================================
