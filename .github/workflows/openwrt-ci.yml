@@ -70,13 +70,21 @@ jobs:
           cat >> .config <<EOF
           CONFIG_TARGET_ramips=y
           CONFIG_TARGET_ramips_mt7621=y
-          CONFIG_TARGET_ramips_mt7621_DEVICE_d-team_pbr-m1=y
+          CONFIG_TARGET_ramips_mt7621_DEVICE_d-team_newifi-d2=y
           CONFIG_TARGET_BOARD="ramips"
           CONFIG_TARGET_SUBTARGET="mt7621"
-          CONFIG_TARGET_PROFILE="DEVICE_d-team_pbr-m1"
+          CONFIG_TARGET_PROFILE="DEVICE_d-team_newifi-d2"
           CONFIG_TARGET_ARCH_PACKAGES="mipsel_24kc"
           CONFIG_DEFAULT_TARGET_OPTIMIZATION="-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc"
           CONFIG_CPU_TYPE="24kc"
+          CONFIG_DEFAULT_luci-app-ssr-plus=y
+          CONFIG_PACKAGE_luci-app-ssr-plus=y
+          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_plugin=y
+          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray=y
+          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan=y
+          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Redsocks2=y
+          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
+          CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=y
           CONFIG_PACKAGE_luci-app-samba=y
           CONFIG_IPV6=y
           CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
