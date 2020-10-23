@@ -78,6 +78,7 @@ jobs:
           CONFIG_DEFAULT_TARGET_OPTIMIZATION="-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc"
           CONFIG_CPU_TYPE="24kc"
           CONFIG_PACKAGE_luci-app-samba=y
+          CONFIG_PACKAGE_autosamba=y
           CONFIG_IPV6=y
           CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
           CONFIG_PACKAGE_ipv6helper=y
